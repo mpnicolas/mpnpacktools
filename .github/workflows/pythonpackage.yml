@@ -81,6 +81,6 @@ jobs:
     - uses: actions/checkout@v2
     - uses: akhileshns/heroku-deploy@v3.0.4 # This is the action
       with:
-        heroku_api_key: ${{secrets.85cb9ddc-2c34-422a-b520-8842b7d7c1b1}}
+        heroku_api_key: ${{secrets.HEROKU_API_KEY}}
         heroku_app_name: "mpnpacktools" # unique in Heroku
-        heroku_email: ${{secrets.m.p.nicolas.cv@gmail.com}}
+        heroku_email: ${{secrets.HEROKU_EMAIL}}
